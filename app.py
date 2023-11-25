@@ -24,6 +24,7 @@ naive_bayes_model = joblib.load(naive_bayes_full_path)
 logistic_regression_full_path = os.path.join(script_directory, "logistic_regression_model.pk1")
 logistic_regression_model = joblib.load(logistic_regression_full_path)
 
+
 # Load vectorizer - SAME VECTORIZER USED TO TRAIN MODELS MUST BE USED
 vectorizer_full_path = os.path.join(script_directory, "vectorizer.pk1")
 vectorizer = joblib.load(vectorizer_full_path)
